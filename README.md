@@ -19,7 +19,7 @@ has nice defaults for light & dark colors (`./build.sh light` or `./build.sh
 dark`, respectively), or you can use custom colors by defining shell variables:
 
 ```bash
-fore=black back=white link=green hover=pink bgbak='#eee' bgacc='#555' ./build.sh custom
+fore=black back=white link=green hover=pink bqbak='#eee' bqacc='#555' ./build.sh custom
 ```
 
 ## Meta tag
