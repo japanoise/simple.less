@@ -1,0 +1,51 @@
+body{
+	background-color: @background;
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	color:@foreground;
+	padding:0 10px
+}
+aside{
+	font-style: italic;
+}
+a:link, a:visited{
+	color:@link;
+}
+a:hover{
+	color:@link-hover;
+}
+#navbar{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+h1,h2,h3,h4{
+	line-height:1.2;
+	font-family:sans-serif;
+}
+video,img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+blockquote {
+	background: @blockquote-background;
+	border-left: 10px solid @blockquote-accent;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D";
+}
+blockquote:before {
+	color: @blockquote-accent;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote p {
+	display: inline;
+}
